@@ -1,0 +1,66 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<blockquote>
+ <h1><Marquee>Student Record</Marquee></h1>
+    <form>
+        <label for="name">Full name</label> <br>
+        <input type="text" name="full_name" id="name"><br>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email"> <br>
+        <label for="password">Password</label> <br>
+        <input type="password" name="password" id="password"><br>
+        <label for="gender">Gender</label> <br>
+        <label><input type="radio" name="gender" value="male">Male</label>
+        <label> <input type="radio" name="gender" value="female">Female</label><br>
+        <label for="language">Language</label> <br>
+        <label><input type="checkbox" name="lang" value="nepali">Nepali</label>
+        <label><input type="checkbox" name="lang" value="English">English</label>
+        <label><input type="checkbox" name="lang" value="Arabian">Arabian</label>
+        <label><input type="checkbox" name="lang" value="Japanese">Japanese</label>
+        <label><input type="checkbox" name="lang" value="Bangla">Bangla</label>
+        <label><input type="checkbox" name="lang" value="chinese">Chinese</label> <br>
+        <label><input type="checkbox" name="lang" value="Indian">Indian</label>
+        <label><input type="checkbox" name="lang" value="Australlian">Australlian</label>
+        <label><input type="checkbox" name="lang" value="Russian">Russian</label>
+        <label><input type="checkbox" name="lang" value="Taiwanese">Taiwanese</label><br>
+        <label><input type="checkbox" name="lang" value="American">American</label><br>
+        <select name="country" id="country"><br>
+            <option selected disabled>----Select country----</option>
+            <option value="n">Nepal</option>
+            <option value="ch">China</option>
+            <option value="us">US</option>
+            <option value="us">Dubai</option>
+            <option value="us">Japan</option>
+            <option value="us">India</option>
+            <option value="us">Bhutan</option>
+            <option value="us">Bangladesh</option>
+            <option value="us">Lanka</option>
+            <option value="us">Canada</option>
+            <option value="us">Portugal</option>
+            <option value="us">Spain</option>
+            <option value="us">Denmark</option>
+            <option value="us">Italy</option>
+         <br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14128.005405703296!2d85.32395955!3d27.71724455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb191b0080f92b%3A0x3d08c08a7f53eace!2sRadisson%20Hotel%20Kathmandu!5e0!3m2!1sen!2snp!4v1646547253723!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></select></form><br>
+        </select><br>
+        <label for="dob">DOB</label><br>
+        <input type="date" id="dob"><br>
+        <label for="image">Image</label> <br>
+        <input type="file" name="image"> <br>
+        <label for="description">Description</label><br>
+        <textarea id="description" rows="15" cols="50"></textarea><br><br>
+        <button>Add Record</button>
+
+
+    </form>
+</blockquote>
+</body>
+</html>
